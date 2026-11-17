@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 print("bagus")
-=======
+
 print("hebat luar biasa")
 print("jeni hebat")
 
@@ -20,4 +20,19 @@ print("haha")
 
 
 
->>>>>>> 8967e2c8409ce8d28a47dd97f9a15433f70f34f4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("meh. ")
