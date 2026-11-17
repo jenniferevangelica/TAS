@@ -1,1 +1,23 @@
+<<<<<<< HEAD
 print("bagus")
+=======
+print("hebat luar biasa")
+print("jeni hebat")
+
+
+
+print("janson skill issue")
+
+print("TAS RIBETTTT")
+'0'
+print("gawon anjing")
+
+print("jansonn")
+
+print("haha")
+
+
+
+
+
+>>>>>>> 8967e2c8409ce8d28a47dd97f9a15433f70f34f4
