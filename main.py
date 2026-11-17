@@ -8,3 +8,10 @@ print("janson skill issue")
 print("TAS RIBETTTT")
 '0'
 print("gawon anjing")
+
+print("jansonn")
+
+
+
+
+
