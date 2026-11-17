@@ -1,2 +1,9 @@
 
 print("bagus")
+
+
+
+
+
+print("gatau")
+
