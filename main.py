@@ -1,6 +1,7 @@
 
 print("bagus")
 
+
 print("hebat luar biasa")
 print("jeni hebat")
 
@@ -26,13 +27,7 @@ print("haha")
 
 
 
-
-
-
-
-
-
-
+print("gatau")
 
 
 print("meh. ")
