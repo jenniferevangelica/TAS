@@ -1,9 +1,5 @@
 
 print("bagus")
-<<<<<<< HEAD
-
-=======
->>>>>>> 3403660ada59f39111b280fd5dc915907f88e63c
 print("hebat luar biasa")
 print("jeni hebat")
 
