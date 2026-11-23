@@ -2,7 +2,7 @@ import json
 
 def baca_data():
     try:
-        file = open("data_toko_KataGue.json", "r")
+        file = open("data_toko_KataLoGue.json", "r")
         data = json.load(file)
         file.close()
         return data
@@ -23,6 +23,6 @@ def baca_data():
         return data
 
 def menulis_data(data):
-    file = open("data_toko_KataGue.json", "w")
+    file = open("data_toko_KataLoGue.json", "w")
     json.dump(data, file, indent=4)
     file.close()
