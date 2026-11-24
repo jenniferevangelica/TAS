@@ -12,7 +12,7 @@ def simpan_riwayat(data, transaksi, uang_diterima, kembalian):
     nomor = len(data["riwayat_transaksi"]) + 1
 
     riwayat_baru = {
-        "nomor_transaksi": "TRX" + str(nomor).zfill(3),
+        "nomor_transaksi": "KLG" + str(nomor).zfill(3),
         "tanggal": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
         "daftar_barang": transaksi["daftar_barang"],
         "total": transaksi["total"],
