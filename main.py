@@ -121,7 +121,7 @@ def menu_riwayat():
 def menu_utama():
     while True:
         print("\n================================")
-        print(" SISTEM INVENTARIS TOKO ATK")
+        print(" SISTEM INVENTARIS TOKO KataLoGue")
         print("================================")
         print("1. Manajemen Barang")
         print("2. Manajemen Stok")
@@ -146,7 +146,7 @@ def menu_utama():
  
         elif pilihan == "0":
             menulis_data(data)
-            print("Terima kasih telah menggunakan program!")
+            print("Terima kasih telah menggunakan program kami!")
             break
  
         else:
