@@ -1,5 +1,3 @@
-print("Arkan. meh")
-
 from utils import input_teks, input_angka_positif
 
 # mencari barang berdasarkan kode
