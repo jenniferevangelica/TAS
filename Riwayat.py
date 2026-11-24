@@ -2,13 +2,12 @@
 from datetime import datetime
 
 
-# Menyimpan transaksi ke dalam riwayat
 def simpan_riwayat(data, transaksi, uang_diterima, kembalian):
 
     if transaksi is None:
         return
 
-    # Membuat tempat untuk menyimpan riwayat
+
     if "riwayat_transaksi" not in data:
         data["riwayat_transaksi"] = []
 
@@ -28,7 +27,6 @@ def simpan_riwayat(data, transaksi, uang_diterima, kembalian):
     return riwayat_baru
 
 
-# Menampilkan semua riwayat transaksi
 def tampilkan_riwayat(data):
 
     print("\n=== RIWAYAT PENJUALAN ===")
@@ -48,7 +46,6 @@ def tampilkan_riwayat(data):
     print("----------------------------------")
 
 
-# Menampilkan barang yang dibeli dalam satu transaksi
 def tampilkan_detail_transaksi(data):
 
     riwayat = data.get("riwayat_transaksi", [])
@@ -93,7 +90,6 @@ def tampilkan_detail_transaksi(data):
     print("Kembalian     : Rp", transaksi_ditemukan["kembalian"])
 
 
-# Menghitung seluruh pendapatan toko
 def hitung_total_pendapatan(data):
 
     total_pendapatan = 0
@@ -106,7 +102,6 @@ def hitung_total_pendapatan(data):
     return total_pendapatan
 
 
-# Menampilkan laporan pendapatan toko
 def tampilkan_laporan_pendapatan(data):
 
     jumlah_transaksi = len(data.get("riwayat_transaksi", []))
@@ -120,7 +115,6 @@ def tampilkan_laporan_pendapatan(data):
     print("----------------------------------")
 
 
-# Menu riwayat dan laporan
 def menu_riwayat_laporan(data):
 
     while True:
