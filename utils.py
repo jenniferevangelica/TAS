@@ -15,7 +15,7 @@ def input_angka(pesan):
             if angka >+ 0:
                 return angka 
             else:
-                print("Angka tidah boleh negatif")
+                print("Angka tidak boleh negatif")
         except ValueError:
             print("Harus berupa angka bulat!")
 

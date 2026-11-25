@@ -5,8 +5,74 @@
             "nama": "Penghapus Kalcer",
             "kategori": "Alat Tulis",
             "harga": 2000,
-            "stok": 20
+            "stok": 0
         }
     ],
-    "riwayat": []
+    "riwayat": [],
+    "riwayat_transaksi": [
+        {
+            "nomor_transaksi": "KLG001",
+            "tanggal": "25-11-2026 14:10:24",
+            "daftar_barang": [
+                {
+                    "kode": "ATK001",
+                    "nama": "Penghapus Kalcer",
+                    "harga": 2000,
+                    "jumlah": 5,
+                    "subtotal": 10000
+                }
+            ],
+            "total": 10000,
+            "uang_diterima": 50000,
+            "kembalian": 40000
+        },
+        {
+            "nomor_transaksi": "KLG002",
+            "tanggal": "25-11-2026 14:13:09",
+            "daftar_barang": [
+                {
+                    "kode": "ATK001",
+                    "nama": "Penghapus Kalcer",
+                    "harga": 2000,
+                    "jumlah": 5,
+                    "subtotal": 10000
+                }
+            ],
+            "total": 10000,
+            "uang_diterima": 50000,
+            "kembalian": 40000
+        },
+        {
+            "nomor_transaksi": "KLG003",
+            "tanggal": "25-11-2026 14:14:01",
+            "daftar_barang": [
+                {
+                    "kode": "ATK001",
+                    "nama": "Penghapus Kalcer",
+                    "harga": 2000,
+                    "jumlah": 5,
+                    "subtotal": 10000
+                }
+            ],
+            "total": 10000,
+            "uang_diterima": 50000,
+            "kembalian": 40000
+        },
+        {
+            "nomor_transaksi": "KLG004",
+            "tanggal": "25-11-2026 14:18:27",
+            "daftar_barang": [
+                {
+                    "kode": "ATK001",
+                    "nama": "Penghapus Kalcer",
+                    "harga": 2000,
+                    "jumlah": 5,
+                    "subtotal": 10000
+                }
+            ],
+            "total": 10000,
+            "uang_diterima": 60000,
+            "kembalian": 50000
+        }
+    ]
 }

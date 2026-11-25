@@ -10,8 +10,6 @@ def cari_barang(data, kode):
  
 # Fungsi membuat transaksi
 def buat_transaksi(data):
-    print("\n=== TRANSAKSI PENJUALAN ===")
- 
     keranjang = []
  
     if len(data["barang"]) == 0:

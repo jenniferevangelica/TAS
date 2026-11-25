@@ -1,16 +1,19 @@
 from penyimpanan import baca_data, menulis_data
-
+ 
 from barang_tambah_tampil import tambah_barang, tampilkan_barang
 from barang_kelola import edit_barang, hapus_barang, kelompok_kategori
 from stok import tambah_stok, kurangi_stok, tampilkan_stok
-
+ 
 from transaksi import buat_transaksi
 from pembayaran import proses_pembayaran
-
-from Riwayat import simpan_riwayat, tampilkan_riwayat, total_pendapatan
-
+ 
+from Riwayat import simpan_riwayat, tampilkan_riwayat, total_pendapatan, tampilkan_laporan_pendapatan
+ 
+ 
+# Memuat data ketika program dijalankan
 data = baca_data()
-
+ 
+ 
 # Menu manajemen barang
 def menu_barang():
     while True:
@@ -47,7 +50,8 @@ def menu_barang():
  
         else:
             print("Pilihan tidak tersedia!")
-
+ 
+ 
 # Menu manajemen stok
 def menu_stok():
     while True:
@@ -86,9 +90,15 @@ def menu_transaksi():
         hasil = proses_pembayaran(data, transaksi)
  
         if hasil != None:
-            simpan_riwayat(data, hasil)
+            simpan_riwayat(data,
+                           hasil,
+                           hasil["bayar"],
+                           hasil["kembalian"]
+                           )
             menulis_data(data)
-
+            print("Riwayat transaksi berhasil disimpan.")
+ 
+ 
 # Menu riwayat penjualan
 def menu_riwayat():
     while True:
@@ -103,14 +113,15 @@ def menu_riwayat():
             tampilkan_riwayat(data)
  
         elif pilihan == "2":
-            total_pendapatan(data)
+            tampilkan_laporan_pendapatan(data)
  
         elif pilihan == "0":
             break
  
         else:
             print("Pilihan tidak tersedia!")
-
+ 
+ 
 # Menu utama
 def menu_utama():
     while True:
@@ -145,6 +156,7 @@ def menu_utama():
  
         else:
             print("Pilihan tidak tersedia!")
-
+ 
+ 
 # Menjalankan program
 menu_utama()
