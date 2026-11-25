@@ -23,7 +23,7 @@ def menu_barang():
         print("3. Edit Barang")
         print("4. Hapus Barang")
         print("5. Kelompokkan Barang")
-        print("0. Kembali")
+        print("0. Kembali ke Menu Utama")
  
         pilihan = input("Pilih menu: ")
  
@@ -59,7 +59,7 @@ def menu_stok():
         print("1. Tambah Stok")
         print("2. Kurangi Stok")
         print("3. Tampilkan Stok")
-        print("0. Kembali")
+        print("0. Kembali ke Menu Utama")
  
         pilihan = input("Pilih menu: ")
  
@@ -105,7 +105,7 @@ def menu_riwayat():
         print("\n=== MENU RIWAYAT PENJUALAN ===")
         print("1. Tampilkan Riwayat")
         print("2. Total Pendapatan")
-        print("0. Kembali")
+        print("0. Kembali ke Menu Utama")
  
         pilihan = input("Pilih menu: ")
  
