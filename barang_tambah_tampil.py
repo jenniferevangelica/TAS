@@ -13,7 +13,7 @@ def tambah_barang(data):
     nama = input_teks("Masukkan nama barang: ")
     kategori = input_teks("Masukkan kategori barang: ")
     harga = input_angka_positif("Masukkan harga barang: ")
-    stok = input_angka("Masukkan stok barang")
+    stok = input_angka("Masukkan stok barang: ")
 
     barang_baru = {
         "kode" : kode,
