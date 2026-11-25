@@ -1,4 +1,12 @@
 {
-    "barang": [],
+    "barang": [
+        {
+            "kode": "ATK001",
+            "nama": "Penghapus",
+            "kategori": "Alat Tulis",
+            "harga": 2000,
+            "stok": 20
+        }
+    ],
     "riwayat": []
 }
