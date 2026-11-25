@@ -1,4 +1,4 @@
-from utils import input_teks, imput_angka, input_angka_positif
+from utils import input_teks, input_angka, input_angka_positif
 
 def cari_barang(data, kode):
     for barang in data["barang"]:
@@ -56,7 +56,7 @@ def hapus_barang(data):
             print("Penghapusan barang dibatalkan.")
 
 def kelompok_kategori(data):
-    print("\n=== KELOMPOKKAN BARANG BERDASAARKAN KATEGORI ===")
+    print("\n=== KELOMPOKKAN BARANG BERDASARKAN KATEGORI ===")
 
     if len(data["barang"]) == 0:
         print("Belum ada barang yang tersedia")
