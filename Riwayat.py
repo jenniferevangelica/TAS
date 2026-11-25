@@ -88,7 +88,7 @@ def tampilkan_detail_transaksi(data):
     print("Kembalian     : Rp", transaksi_ditemukan["kembalian"])
 
 
-def hitung_total_pendapatan(data):
+def total_pendapatan(data):
 
     total_pendapatan = 0
 

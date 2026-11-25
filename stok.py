@@ -46,7 +46,7 @@ def tambah_stok(data):
     print("Stok sekarang:", barang["stok"])
 
 #Mengurangi stok barang
-def kurangin_stok(data):
+def kurangi_stok(data):
     print("\n== KURANGINSTOK ===")
 
     if len(data["barang"]) == 0:

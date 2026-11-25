@@ -8,7 +8,6 @@ def cari_barang(data, kode):
  
     return None
  
- 
 # Fungsi membuat transaksi
 def buat_transaksi(data):
     print("\n=== TRANSAKSI PENJUALAN ===")
@@ -35,6 +34,7 @@ def buat_transaksi(data):
             break
  
         barang = cari_barang(data, kode)
+
         # Menghitung jumlah barang yang sudah masuk keranjang
         if barang == None:
             print("Barang tidak ditemukan!")
@@ -81,7 +81,6 @@ def buat_transaksi(data):
     if len(keranjang) == 0:
         print("Tidak ada barang yang dibeli.")
         return None
- 
     
     total = 0
  

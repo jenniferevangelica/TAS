@@ -55,7 +55,7 @@ def hapus_barang(data):
         else:
             print("Penghapusan barang dibatalkan.")
 
-def kelompokkan_barang(data):
+def kelompok_kategori(data):
     print("\n=== KELOMPOKKAN BARANG BERDASAARKAN KATEGORI ===")
 
     if len(data["barang"]) == 0:
