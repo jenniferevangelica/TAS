@@ -121,7 +121,7 @@ def menu_stok(data):
         if pilihan == "1":
             tambah_stok(data)
         elif pilihan == "2":
-            kurangin_stok(data)
+            kurangi_stok(data)
         elif pilihan == "3":
             tampilkan_stok(data)
         elif pilihan == "4":
