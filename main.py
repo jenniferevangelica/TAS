@@ -86,7 +86,7 @@ def menu_transaksi():
         hasil = proses_pembayaran(data, transaksi)
  
         if hasil != None:
-            simpan_riwayat(data, hasil)
+            simpan_riwayat(data, hasil, hasil["bayar"], hasil["kembalian"])
             menulis_data(data)
 
 # Menu riwayat penjualan

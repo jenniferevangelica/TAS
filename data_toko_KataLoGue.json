@@ -6,7 +6,46 @@
             "kategori": "Alat Tulis",
             "harga": 2000,
             "stok": 20
+        },
+        {
+            "kode": "ATK002",
+            "nama": "Bolpoin Racing",
+            "kategori": "Alat Tulis",
+            "harga": 5000,
+            "stok": 20
+        },
+        {
+            "kode": "ATK003",
+            "nama": "Stopmap JosJis",
+            "kategori": "Alat Kantor",
+            "harga": 7000,
+            "stok": 20
+        },
+        {
+            "kode": "ATK004",
+            "nama": "Buku Agenda",
+            "kategori": "Alat Kantor",
+            "harga": 10000,
+            "stok": 8
         }
     ],
-    "riwayat": []
+    "riwayat": [],
+    "riwayat_transaksi": [
+        {
+            "nomor_transaksi": "KLG001",
+            "tanggal": "26-11-2026 10:56:23",
+            "daftar_barang": [
+                {
+                    "kode": "ATK004",
+                    "nama": "Buku Agenda",
+                    "harga": 10000,
+                    "jumlah": 2,
+                    "subtotal": 20000
+                }
+            ],
+            "total": 20000,
+            "uang_diterima": 30000,
+            "kembalian": 10000
+        }
+    ]
 }
