@@ -104,12 +104,12 @@ def tampilkan_laporan_pendapatan(data):
 
     jumlah_transaksi = len(data.get("riwayat_transaksi", []))
 
-    total_pendapatan = total_pendapatan(data)
+    pendapatan = total_pendapatan(data)
 
     print("\n=== LAPORAN PENDAPATAN TOKO ===")
     print("----------------------------------")
     print("Jumlah Transaksi :", jumlah_transaksi)
-    print("Total Pendapatan : Rp", total_pendapatan)
+    print("Total Pendapatan : Rp", pendapatan)
     print("----------------------------------")
 
 

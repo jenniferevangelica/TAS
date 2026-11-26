@@ -114,7 +114,7 @@ def menu_stok(data):
         print("2. Kurangin stok")
         print("3. Tampilan jumplah stok")
         print("4. Tampilan barang hampir habis")
-        print("0. Kembali")
+        print("0. Kembali ke Menu Utama")
 
         pilihan = input_pilihan("Pilihan menu: ", ["1", "2", "3","4", "0"])
 
