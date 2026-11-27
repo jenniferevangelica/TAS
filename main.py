@@ -83,10 +83,10 @@ def menu_transaksi():
  
     transaksi = buat_transaksi(data)
  
-    if transaksi != None:
+    if transaksi is not None:
         hasil = proses_pembayaran(data, transaksi)
  
-        if hasil != None:
+        if hasil is not None:
             simpan_riwayat(data, hasil, hasil["bayar"], hasil["kembalian"])
             menulis_data(data)
             print("Riwayat transaksi berhasil disimpan.")
