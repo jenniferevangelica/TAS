@@ -26,7 +26,7 @@ def buat_transaksi(data):
             print("Harga: Rp", barang["harga"])
             print("Stok :", barang["stok"])
  
-        kode = input_teks("\nMasukkan kode barang (0 untuk selesai): ")
+        kode = input_teks("\nMasukkan kode barang (0 untuk selesai): ").upper()
  
         if kode == "0":
             break
